@@ -14,10 +14,25 @@
   "dependencies": {
     "dotenv": "^16.0.0",
     "eslint": "^8.10.0",
+    "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx": "^0.1.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.3",
     "express": "^4.17.3",
+    "mongoose": "^5.13.14",
     "morgan": "^1.10.0",
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "slugify": "^1.6.5",
+    "validator": "^13.7.0"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "devDependencies": {
+    "ndb": "^1.1.5"
   }
 }
